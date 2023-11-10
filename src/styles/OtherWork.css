@@ -1,0 +1,46 @@
+.otherwork-section{
+    position: relative;
+    align-items: center;
+    color: var(--white);
+    min-width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+      
+  }
+.otherwork-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 10px 20px;
+    text-align: left;
+}
+  h1{
+    text-align: center;
+  }
+  .other-container{
+    text-align: left;
+
+    width: 90%;
+    min-width: 200px;
+    display: flex; /* Display card content vertically */
+    flex-direction: column;
+    margin: 20px auto;
+    background: linear-gradient(180deg,#313035 0%,#222326 100%);
+    border-radius: 16px;
+    padding: 32px 40px;
+    box-shadow: var(--shadow-faint); 
+  }
+  p{
+    text-align: left;
+  }
+  @media (max-width: 768px) {
+    .otherwork-container {
+      grid-template-columns: repeat(1, 1fr); /* 1 column for narrow screens */
+    }
+  }
+  @media (max-width: 1024px) {
+    .otherwork-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+  }

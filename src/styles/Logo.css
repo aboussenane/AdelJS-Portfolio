@@ -1,0 +1,13 @@
+.logo-container {
+    width: 99%;
+    height: 99%;
+    
+  }
+  
+  .logo {
+    max-width: 100%; /* Make the logo responsive within its parent container */
+    max-height: 100%; /* Prevent the logo from overflowing its container */
+    
+  }
+  
+  
