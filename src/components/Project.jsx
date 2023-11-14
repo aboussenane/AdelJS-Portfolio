@@ -1,19 +1,52 @@
-import React from 'react';
+
+import React, { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../styles/Project.css'
 import { BiGitRepoForked, BiLogoReact, BiLogoJavascript, BiSolidFileCss, BiLogoHtml5 } from 'react-icons/bi';
 import { SiVite, SiAmazonaws} from 'react-icons/si';
 
-
+gsap.registerPlugin(ScrollTrigger);
 function Project() {
-  
-
+    useEffect(() => {
+        gsap.utils.toArray('.project-container').forEach((container) => {
+          gsap.set(container, { opacity: 0, y: 100 }); // Initial opacity and y position
+          gsap.to(container, {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+              trigger: container,
+              start: 'top 80%',
+              end: 'bottom 20%',
+              toggleActions: 'play none none reverse',
+            },
+          });
+        });
+      }, []);
+      useEffect(() => {
+        gsap.utils.toArray('.project-container-left').forEach((container) => {
+          gsap.set(container, { opacity: 0, y: 100 }); // Initial opacity and y position
+          gsap.to(container, {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+              trigger: container,
+              start: 'top 80%',
+              end: 'bottom 20%',
+              toggleActions: 'play none none reverse',
+            },
+          });
+        });
+      }, []);
   return (
     <>
         
         <div className="project-container">
             <div className="project-title">
                 <a id="title-link" href="https://master.d1rdr4srhzrrq8.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Time Logger</a>
-                <p id='description'>A tool I created to help me keep conduct noise monitoring at my previous position. I needed to note the exact time that construction activities occured so I created this web app using React and Javascript. When the "Log" button is pressed, the time is saved as text along with a comment. The text can then be conveniently copied via a button at the bottom of the page. In the future i'm planning to implement an email feature. </p> 
+                <p id='description'>I developed a tool during my previous job to assist in monitoring noise levels. This tool was specifically designed to record the precise timing of construction activities. Using React and JavaScript, I created a web application for this purpose. When the "Log" button is clicked, the time, along with a comment, is saved as text. This text can be easily copied using a button located at the bottom of the page. Additionally, I intend to enhance this tool by incorporating an email feature in the future. </p> 
             </div>
             <div className="project-info-container">
 
@@ -40,7 +73,7 @@ function Project() {
             </div>
             <div className="project-title">
             <a id="title-link" href="https://master.d3hlpirztw4tl7.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Chord Generator</a>
-                <p id='description'>This was a project where I created a slot machine that generates musical chords. The user selects a key then generates chords based on that. This was a bit complex to figure out at first due to the nature of chords and musical keys, simply generating four chords woldn't do as the each chord may have a different "character" depending on the key it is being played in e.g. D major vs. D min. My future intentions for this project is to add sound so as to play each progression once it's generated.</p>
+                <p id='description'>This project involved designing a slot machine that produces musical chords based on user-selected keys. Initially, it posed a challenge due to the complexity of chords and musical keys. Merely generating four chords was not sufficient, as each chord may exhibit a distinct "character" contingent on the key it is played in, such as D major versus D minor. Looking ahead, my plan for this project includes integrating sound functionality to play each progression once it's generated.</p>
             </div>
             
             
@@ -48,7 +81,7 @@ function Project() {
         <div className="project-container">
             <div className="project-title">
             <a id="title-link" href="https://master.d2z9qwr84qki6r.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Vocal Sampler</a>
-                <p id='description'>This was a quick project I put together. I wanted to mock up the front end of a potential virtual instrument project. Admittedly not much work was put into the back end audio portion so this instrument functions as a simple vocal sampler for the time being. </p>
+                <p id='description'>This project was a rapid creation aimed at crafting the frontend interface for a potential virtual instrument.</p>
             </div>
             <div className="project-info-container">
             <a id="title-link" href="https://master.d2z9qwr84qki6r.amplifyapp.com/" target="_blank" rel="noopener noreferrer">

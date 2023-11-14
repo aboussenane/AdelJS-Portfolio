@@ -65,6 +65,49 @@
     border-color: var(--red);
     padding: 10px;
   }
+  .transition{
+    position: absolute;
+    bottom: -15px;
+    left: 45vw;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    text-align: center;
+    height: 40px;
+    border-style: solid;
+    border-color: var(--shadow);
+    border-width: 3px;
+    border-radius: 15px;
+    width: 175px;
+    
+  }
+  .tran-text{
+    color: var(--white);
+    font-size: large;
+    margin-left: 10px;
+  }
+  .scroll-text{
+    color: var(--blue);
+    font-size: large;
+    font-weight: 500;
+  }
+  .t-divider{
+    margin: 0 10px;
+    
+    width: 0.1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--shadow);
+    border-radius: 2px;
+    height: 30px;
+    background-color: var(--shadow) !important;
+  }
+  .transition:hover{
+    border-style: solid;
+    border-color: var(--blue);
+  }
   #intro-text{
     left: 50%;
     top: 50%;
@@ -78,3 +121,70 @@
     text-align: center;
     
  }
+ .dots{
+  position: absolute;
+  z-index: 0;
+  top: -47vh;
+  left: -37vw;
+  width: 20vw;
+  
+  list-style: none;
+  animation: breathe 10s infinite ease both;
+}
+
+.dot{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 5px rgb(100, 230, 255),
+              0px 0px 2px rgba(255, 255, 255, 0.5),
+              0px 0px 10px rgb(0, 191, 243);
+  background: rgb(0, 191, 243);
+  opacity: 0.60;
+  animation-name: clockwise;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.dot:nth-child(even){ 
+  animation-direction: reverse;
+}
+
+.dot:nth-child(3n+3){
+  animation-duration: 40s; 
+  opacity: 0.80;
+}
+
+.dot:nth-child(4n+4){ 
+  animation-duration: 30s; 
+  opacity: 0.40;
+}
+
+@for $item from 1 through 40{
+  li:nth-child(#{$item}){ 
+    animation-delay: -#{$item}s; 
+  }
+} 
+
+@keyframes breathe{
+  0%  { transform: scale(0.75); }
+  50% { transform: scale(1.25); }
+  100%{ transform: scale(0.75); }
+}
+
+@keyframes clockwise{
+  0% { 
+        transform: rotate(0deg) 
+                   translate(-100px)
+                   rotate(0deg); 
+  }
+  
+  100% { 
+        transform: rotate(360deg) 
+                   translate(-100px) 
+                   rotate(-360deg); 
+  }
+}
