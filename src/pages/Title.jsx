@@ -52,15 +52,15 @@ function Title() {
     const transition = transitionRef.current;
 
     // Animation to show the element after a delay
-    gsap.from(transition, { opacity: 1, y:-40, duration: 1, delay: 15, ease: 'power1.in'});
+    gsap.from(transition, { opacity: 1, y:-60, duration: 1, delay: 15, ease: 'power1.in'});
 
     // Scroll event listener to hide the element on scroll
     const handleScroll = () => {
       const scrollY = window.scrollY || window.pageYOffset; 
       if (scrollY >= 500) {
-        gsap.to(transition, { opacity: 0, y: -40, duration: 1 });
+        gsap.to(transition, { opacity: 0, y: -60, duration: 1 });
       } else {
-        gsap.to(transition, { opacity: 1, y: -40, duration: 1 }); // Show the element if not scrolled enough
+        gsap.to(transition, { opacity: 1, y: -60, duration: 1 }); // Show the element if not scrolled enough
       }
     };
 
