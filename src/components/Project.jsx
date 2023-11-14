@@ -63,24 +63,7 @@ function Project() {
 
             </div>
         </div>
-        <div className="project-container-left" >
-        <div className="project-info-container">
-            <a id="title-link" href="https://main.d1vi2cr9xyhyhw.amplifyapp.com/" target="_blank" rel="noopener noreferrer">  
-
-                <div className="project-info" id='web-synth' alt="Web Synth Site Image">
-                   
-                </div>
-                </a>
-
-                <div className='project-icons'><BiLogoJavascript id='project-icon'/><BiSolidFileCss id='project-icon'/><BiLogoHtml5 id='project-icon'/><SiAmazonaws id='project-icon'/></div>
-
-            </div>
-            <div className="project-title">
-            <a id="title-link" href="https://main.d1vi2cr9xyhyhw.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Synthesizer</a>     
-                <p id='description'>One of my first projects, I followed a tutorial to create a synthesizer. This project taught me alot about Javascript.</p>
-            </div>
-            
-        </div>   
+       
     </>
   )
 }
