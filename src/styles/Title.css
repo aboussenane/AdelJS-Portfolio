@@ -80,13 +80,13 @@
     border-color: var(--shadow);
     border-width: 3px;
     border-radius: 15px;
-    width: 175px;
+    width: 190px;
     
   }
   .tran-text{
     color: var(--white);
-    font-size: large;
-    margin-left: 10px;
+    font-size: normal;
+    margin-left: 5px;
   }
   .scroll-text{
     color: var(--blue);

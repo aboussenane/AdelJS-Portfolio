@@ -6,6 +6,12 @@ import { SiGreensock, SiVite} from 'react-icons/si';
 import { BiGitRepoForked,BiLogoReact, BiLogoHtml5, BiLogoJavascript, BiSolidFileCss } from 'react-icons/bi';
 function Title() {
   const transitionRef = useRef(null)
+  const handleTransitionClick = () => {
+    // Get the element you want to scroll to (e.g., an element with the ID 'targetElement')
+    const targetElement = document.getElementById('transition');
+    // Scroll to the target element
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  };
   useEffect(() => {
     gsap.set(transitionRef.current, { opacity: 0 });
     const title = document.getElementById('intro-text');
@@ -97,11 +103,11 @@ function Title() {
             <div className="dot"></div>
           </div>
           </div>
-          <div className="transition" ref={transitionRef}>
+          <button className="transition" ref={transitionRef} id="transition" onClick={handleTransitionClick}>
             <p className="tran-text">See More</p>
           <div className='t-divider'></div>
           <p className="scroll-text">scroll</p> 
-        </div>
+        </button>
         </div>
         
       </section>
