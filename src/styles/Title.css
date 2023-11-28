@@ -41,6 +41,7 @@
     margin-top: 20px;
     
   }
+
   .icon-corner{
     font-size: 2rem;
     position: absolute;
@@ -186,5 +187,26 @@
         transform: rotate(360deg) 
                    translate(-100px) 
                    rotate(-360deg); 
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .section {
+
+    margin-top: 0px;
+    
+  }
+  .dots{
+    top: -70vh;
+  left: 0vw;
+  }
+  .title-section{
+    padding: 0px !important;
+    max-width: 100%;
+    
+  }
+  .transition{
+    bottom: 230px;
+    left: 30vw;
   }
 }

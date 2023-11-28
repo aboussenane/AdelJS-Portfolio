@@ -31,21 +31,21 @@ function OtherWork() {
        <div className="otherwork-container">
           
           <div className="other-container">
-            <h3>Electron Doc Generator</h3>
+            <h3>Doc Generator</h3>
             <p>
-              Developed an Electron app using Node.js to interact with the Pipedrive API. The application retrieves data from the platform and utilizes docxtemplater to automatically generate a new document with pre-filled basic information.
+              Developed an Electron app using Node.js to interact with the Pipedrive API. The application retrieves data from the platform and utilizes docxtemplater to automatically generate a new document with pre-filled basic information. Later on, I modified it to run continuously in the background and generate documents and folders automatically when a new deal is created in Pipedrive. 
             </p>
           </div>
           <div className="other-container">
-            <h3>PowerShell Scripts</h3>
+            <h3>Python and PowerShell Scripts</h3>
             <p>
-              Implemented various scripts for efficient file management and archiving of Outlook email folders into PDF documents. These PowerShell scripts create folders, perform renaming, and archive both Outlook and network folders.
+              Implemented various scripts for efficient data analyses, file management and archiving of documents. These scripts create folders, perform renaming, and create pdfs from outlook items. I have also done data analyses using Python and Pandas to generate reports and graphs.
             </p>
           </div>
           <div className="other-container">
             <h3>VBA Macros</h3>
             <p>
-              Automated the generation of weekly and monthly reports using a combination of VBA and PowerShell.
+              Automated the generation of weekly and monthly reports using a combination of VBA, PowerShell and Python.
             </p>
           </div>
         </div>

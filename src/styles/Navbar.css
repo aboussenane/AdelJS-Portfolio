@@ -116,69 +116,36 @@ nav {
   a:hover {
     color: var(--blue) !important;
   }
+  #nav-toggle{
+    display: none;
+  }
   @media screen and (max-width: 768px) {
-    nav {
-      position: fixed; /* Fixed position to keep it at the top */
-      top: 0; /* Position at the top of the viewport */
-      width: 50px; /* Full width */
-      height: 250px;
-      background-color: #1d1e1f9d;
-      backdrop-filter: blur(10px);
-      padding: 10px 0; 
-      z-index: 10; 
-      left:0px;
-      border: var(--border);
-      border-style: solid;
-      border-radius: 15px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
     .name-tag{
-      display: hidden;
-      color: transparent;
+      
+    }
+    ul {
+     
     }
     .github-btn{
-      position: relative;
-      top: 0%;
-      right: 5px;
-      text-decoration: none;
-      color: var(--white);
+      top: 15%;
+    }
+    #nav-toggle{
       display: flex;
-      flex-direction: column;
-      align-items: center; 
-      text-align: center;
+      position: relative; 
+      color: var(--white);
+      font-size: large;
+      justify-content: center;
+      align-items: center;
+      left: 45vw;
+      top: -15%;
       height: 40px;
-      border-style: none;
+      border-style: solid;
       border-color: var(--shadow);
       border-width: 3px;
       border-radius: 15px;
-      min-width: 40px;
-      width: 50px;
-    }
-    .github-btn:hover{
-      border-style: none;
-      border-color: var(--blue);
-    }
-    .git-text{
-      color: var(--white);
-      font-size: small;
-    }
-    .btn-text{
-      color: var(--blue);
-      font-size: large;
-      display: none;
-    }
-    .divider{
-      display: none;
-    }
-    ul{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 10px;
-    }
-    a{
-      font-size: small;
+      max-width: 40px;
+      background-color: #1d1e1f00;
+      backdrop-filter: blur(10px);
     }
   }
+ 

@@ -238,3 +238,14 @@ h4{
       border-color: #A23A07;
     }
   }
+
+  @media screen and (max-width: 458px) {
+
+    .contact-container{
+      
+      margin-bottom: 50px;
+    }
+    .contact-section{
+      margin-bottom: 300px;
+    }
+  }

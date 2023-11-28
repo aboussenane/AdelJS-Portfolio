@@ -188,3 +188,22 @@
   font-size: 3rem;
   font-weight: bold;
 }
+
+@media screen and (max-width: 458px) {
+  .projects-section{
+    
+    padding: 0px;
+    max-width: 100vw;;
+  }
+  .project-container{
+    grid-template-columns: 1fr;
+  }
+  .project-container-left{
+    grid-template-columns: 1fr;
+  }
+  .project-info-container{
+    margin-top: 100px;
+    height: 500px;
+    
+} 
+}
