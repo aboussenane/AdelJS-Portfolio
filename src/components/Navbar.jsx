@@ -80,7 +80,7 @@ function Navbar() {
 
   return (
     <nav style={{ height: navOpen ? '100px' : '50px' }}>
-    <h4 className='name-tag' style={{ top: navOpen ? '-1%' : '-15%' }}>adelJS.dev</h4>
+    <h4 className='name-tag' style={{ top: navOpen ? '-1%' : '-15%' }}>adelJSdev.com</h4>
     <button id="nav-toggle" type="button" onClick={() => setNavOpen(!navOpen)} style={{ top: navOpen ? '0%' : '-15%' }}>...</button>
     {navOpen || windowWidth > 768 ? (  
         <ul>
@@ -112,7 +112,7 @@ function Navbar() {
           </li>
         </ul>
         ): null}
-        <a href="https://github.com/AdelBoussa" className="github-btn" style={{ top: navOpen ? '5%' : '10%' }}>
+        <a href="https://github.com/AdelBoussa" className="github-btn" style={{ top: navOpen ? '9%' : '9%', position:'absolute' }}>
         <p className="git-text">Github </p>
         <div className='divider'></div>
         <p className="btn-text">Visit</p> 

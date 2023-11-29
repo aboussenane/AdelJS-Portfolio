@@ -79,7 +79,7 @@ function Project() {
             
         </div>
         <div className="project-container">
-            <div className="project-title">
+            <div className="project-title" id="short-project-description">
             <a id="title-link" href="https://master.d2z9qwr84qki6r.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Vocal Sampler</a>
                 <p id='description'>This project was a rapid creation aimed at crafting the frontend interface for a potential virtual instrument.</p>
             </div>

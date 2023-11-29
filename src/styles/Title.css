@@ -1,7 +1,6 @@
 #root{
     max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
+    
     font-family: Inter,Avenir,Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -196,6 +195,11 @@
     margin-top: 0px;
     
   }
+  .title-section{
+    padding: 0px !important;
+    max-width: 100%;
+    
+  }
   .dots{
     top: -70vh;
   left: 0vw;
@@ -206,7 +210,7 @@
     
   }
   .transition{
-    bottom: 230px;
+    bottom: 15%;
     left: 30vw;
   }
 }
