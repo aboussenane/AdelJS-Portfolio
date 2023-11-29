@@ -48,8 +48,8 @@
 }
 
 body{
-  
-  
+  background-color: #080808; /* Fallback color for older browsers */
+  background-color: var(--background, #080808); /* Replace --yourColor and #defaultColor with your variable and color */
   width: 100%;
 }
 html{
