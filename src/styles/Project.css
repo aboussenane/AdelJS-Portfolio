@@ -163,7 +163,7 @@
     height: 500px;
     margin-left: 35px;
     text-align:left;
-  
+    color: var(--white);
 }
 #description{
   font-size: 0.9em;

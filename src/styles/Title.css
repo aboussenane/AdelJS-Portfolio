@@ -64,6 +64,8 @@
     border-style: none;
     border-color: var(--red);
     padding: 10px;
+    background-color: #080808; /* Fallback color for older browsers */
+  background-color: var(--background, #080808);
   }
   .transition{
     position: absolute;
@@ -81,6 +83,8 @@
     border-width: 3px;
     border-radius: 15px;
     width: 190px;
+    background-color: #080808; /* Fallback color for older browsers */
+  background-color: var(--background, #080808);
     
   }
   .tran-text{
