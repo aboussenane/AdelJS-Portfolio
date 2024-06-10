@@ -17,7 +17,7 @@ function Title() {
     const title = document.getElementById('intro-text');
     const subheader = document.getElementById('subheader');
     const letters = ['H', 'i', ',', ' I', '\'', 'm', ' A', 'd', 'e', 'l', '.'];
-    const subheaderLetters = ['F', 'u', 'l', 'l ', 'S', 't', 'a', 'c', 'k ', 'W', 'e', 'b ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
+    const subheaderLetters = ['F', 'r', 'o', 'n', 't', 'e', 'n', 'd', ' ', 'W', 'e', 'b ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
     let currentText = '';
     let currentSubheader = '';
 
@@ -84,7 +84,7 @@ function Title() {
   
         <div className="title-container"> 
         
-
+          
           <h1 id="intro-text">Hi, I'm Adel.</h1>
           <h3 id="subheader"></h3>
           <div className="icon-corner">

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../styles/Skills.css'
+
 
 const EmptyContentSkill = ({ title, content, logo }) => {
     const [isActive, setIsActive] = useState(false);

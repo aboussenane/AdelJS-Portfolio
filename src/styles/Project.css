@@ -132,19 +132,21 @@
     border-style:none;
     transition: transform 0.5s ease-in-out;
     color: var(--gold);
+    overflow : hidden;
+    scrollbar-width: none;
 }
 #time-logger{
   background-image: url('../assets/time-logger.PNG');
   background-size: cover; 
   background-repeat: no-repeat;
 }
-#chord-generator{
-  background-image: url('../assets/ChordGen.PNG');
-  background-size: cover; 
+#doc-generator{
+  background-image: url('../assets/docGen.PNG');
+  background-size:cover;
   background-repeat: no-repeat;
 }
-#vocal-sampler{
-  background-image: url('../assets/aiko.PNG');
+#caeterra{
+  border: red 1px solid;
   background-size: cover; 
   background-repeat: no-repeat;
 
@@ -159,6 +161,7 @@
   }
 
 .project-title{
+  margin-top: 20px;
     width: 90%;
     height: 500px;
     margin-left: 35px;

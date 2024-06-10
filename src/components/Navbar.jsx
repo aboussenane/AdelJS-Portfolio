@@ -33,7 +33,7 @@ function Navbar() {
     if (scrollY < 500) {
       setActiveSection('home');
     } else if (scrollY < 1200) {
-      setActiveSection('skills');
+      setActiveSection('internships');
     } else if (scrollY < 2000) {
       setActiveSection('projects');
     } else {
@@ -57,8 +57,8 @@ function Navbar() {
       
       if (sectionId === 'projects') {
         offset = 80;
-      } else if (sectionId === 'skills') {
-        offset = 50;
+      } else if (sectionId === 'internships') {
+        offset = 80;
       }
       else if (sectionId === 'contact') {
         offset = 50;
@@ -90,11 +90,7 @@ function Navbar() {
               Home
             </a>
           </li>
-          <li className={activeSection === 'skills' ? 'active' : ''}>
-            <a href="#skills" onClick={() => scrollToSection('skills')}>
-              Skills
-            </a>
-          </li>
+          
           <li className={activeSection === 'projects' ? 'active' : ''}>
             <a href="#projects" onClick={() => scrollToSection('projects')}>
               Projects
@@ -105,14 +101,10 @@ function Navbar() {
               Contact
             </a>
           </li>
-          <li className={activeSection === 'resume' ? 'active' : ''}>
-            <a href="/AdelBoussenaneResume.pdf">
-              Resume
-            </a>
-          </li>
+          
         </ul>
         ): null}
-        <a href="https://github.com/AdelBoussa" className="github-btn" style={{ top: navOpen ? '9%' : '9%', position:'absolute' }}>
+        <a href="https://github.com/aboussenane" className="github-btn" style={{ top: navOpen ? '9%' : '9%', position:'absolute' }}>
         <p className="git-text">Github </p>
         <div className='divider'></div>
         <p className="btn-text">Visit</p> 

@@ -125,6 +125,19 @@
     text-align: center;
     
  }
+ #avatar-image{
+    left:50%;
+    top: 50%;
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: none;
+    border-color: var(--blue);
+    border-width: 5px;
+    
+ 
+ }
  .dots{
   position: absolute;
   z-index: 0;

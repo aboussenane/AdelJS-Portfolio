@@ -1,7 +1,7 @@
 import React from 'react';
 import Skill from '../components/Skill';
 import EmptyContentSkill from '../components/EmptyContentSkill';
-import '../styles/Skills.css'
+
 import { BiLogoFigma, BiGitRepoForked,BiCog, BiLogoReact, BiLogoJavascript, BiSolidFileCss, BiLogoPython, BiLogoHtml5, BiLogoNodejs } from 'react-icons/bi';
 import { SiVite, SiPowershell, SiAmazonaws, SiElectron} from 'react-icons/si';
 import {BsFileWordFill} from 'react-icons/bs';
