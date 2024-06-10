@@ -26,7 +26,7 @@ function OtherWork() {
   const toggleContainers = () => {
     setExpanded((prevExpanded) => {
       const newHeight = prevExpanded ? '700px' : 'auto'; // Change '150px' to the compressed height
-      gsap.to('.other-container-expandable', { height: newHeight, duration: 1 });
+      gsap.to('.other-container', { height: newHeight, duration: 1 });
       return !prevExpanded;
     });
   };
@@ -35,10 +35,12 @@ function OtherWork() {
 
       <section className="otherwork-section">
       <h1>More About Me</h1>
+      
        <div className="otherwork-container">
           
           <div className="other-container">
             <h3>Work Experience</h3>
+            <button id='elipse' onClick={toggleContainers}>...</button>
             <p>
               I am currently employed as an acoustic technician at an engineering consultancy 
               in Burnaby B.C. During my time here, I have learned to automate various aspects 
@@ -51,8 +53,10 @@ function OtherWork() {
               I have also dealt with various data formats such as JSON, XML, CSV and SQL databases.
             </p>
           </div>
+          
           <div className="other-container">
             <h3>Outside of Work</h3>
+            <button id='elipse' onClick={toggleContainers}>...</button>
             <p>
               I enjoy spending my free time working on personal projects such as building an inventory management site.
               I also enjoy producing music and have been doing so for over 10 years. I have a special expertise in audio and audio production which is what landed me my job at BKL Consultants. 
@@ -61,8 +65,11 @@ function OtherWork() {
               His philosphies on writing code have helped me improve as a programmer and stand out during my internships.
             </p>
           </div>
-          <div className="other-container-expandable">
+          
+          <div className="other-container">
             <h3>Education</h3>
+            <button id='elipse' onClick={toggleContainers}>...</button>
+            
             <p>
               I started out my education at the University of Victoria where I studied a joint Computing Science and Music degree. 
               During my time there I took the first year of the computing science program and the first year of the music program. As well as any joint music technology classes available. 
@@ -72,9 +79,11 @@ function OtherWork() {
               I eventually picked up React and a few other libraries and began building more complex applications. After surviving Covid-19, several job changes and internships, I finally completed my diploma in Computing Science and feel prepared to begin my career as a software engineer. 
               After surviving Covid-19, several job changes and internships, I finally completed my diploma in Computing Science and feel prepared to begin my career as a software engineer.
             </p>
-            <button id='elipse' onClick={toggleContainers}>...</button>
+            
           </div>
+          
         </div>
+        
       </section>
 
     </>

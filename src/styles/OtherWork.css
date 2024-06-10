@@ -33,37 +33,24 @@
     height: 800px;
     overflow-y: hidden;
   }
-  .other-container-expandable{
-    text-align: left;
-
-    width: 90%;
-    min-width: 200px;
-    display: flex; /* Display card content vertically */
-    flex-direction: column;
-    margin: 20px auto;
-    background: linear-gradient(180deg,#313035 0%,#222326 100%);
-    border-radius: 16px;
-    padding: 32px 40px;
-    box-shadow: var(--shadow-faint); 
-    height: 800px;
-    overflow-y: hidden;
-  }
+  
   p{
     text-align: left;
     
     
   }
   #elipse {
-    position: absolute;
-    bottom: 10px;
-    right:43%;
-    width: 30px;
+    position: relative;
+    
+    left: 25%;;
+   
+    width: 50%;
     height: 30px;
     border-radius: 5px;
-    border: 5px solid #fff;
-    background-color: #414141ea;
+    border: 1px double var(--shadow);
+    background-color:transparent;
     color: #fff;
-    border: none;
+    
     cursor: pointer;
     display: flex;
     align-items: center;
