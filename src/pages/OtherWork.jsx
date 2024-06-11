@@ -40,29 +40,30 @@ function OtherWork() {
           
           <div className="other-container">
             <h3>Work Experience</h3>
-            <button id='elipse' onClick={toggleContainers}>...</button>
             <p>
-              I am currently employed as an acoustic technician at an engineering consultancy 
-              in Burnaby B.C. During my time here, I have learned to <strong>automate</strong> various aspects 
-              of my job using <strong>Python, Powershell and nodeJS</strong>. 
-              I have also taken on the role of <strong>managing the companies internal IT systems </strong> 
-               in coordination with our outsourced IT consultants. I've taken charge in various 
-               <strong> data migration and data archival projects</strong> using my knowledge of programming to 
-              save and transfer data from application to application. 
-              I have gained valuable knowledge in <strong>networking protocols</strong> and used it to communicate with remote equipment via SSH and HTTP requests.
-              I have also dealt with various data formats such as <strong>JSON, XML and CSV</strong>.
+            Currently employed as an acoustic technician at an engineering consultancy in Burnaby, B.C.
+            <br/><br/>Learned to automate various aspects of the job using Python, PowerShell, and Node.js.
+            <br/><br/>Taken on the role of managing the company's internal IT systems in coordination with outsourced IT consultants.
+            <br/><br/>Led various data migration and data archival projects, using programming knowledge to save and transfer data between applications.
+            <br/><br/>Gained valuable knowledge in networking protocols, using it to communicate with remote equipment via SSH and HTTP requests.
+            <br/><br/>Dealt with various data formats such as JSON, XML, and CSV.
             </p>
+
           </div>
           
           <div className="other-container">
             <h3>Outside of Work</h3>
             <button id='elipse' onClick={toggleContainers}>...</button>
             <p>
-              I enjoy spending my free time working on personal projects such as building an <strong>inventory management site</strong>.
-              I also enjoy <strong>producing music</strong> and have been doing so for over 10 years. I have a <strong>special expertise in audio</strong> and audio production which is what landed me my job at BKL Consultants. 
-              I like to play around with modular synthesizers and <strong>Max MSP</strong>, a visual audio coding language. One day I hope to make my own musical software instruments!
-              I stay healthy by practicing <strong>Jiu Jitsu</strong> twice a week and getting plenty of <strong>fresh air</strong>. I also enjoy reading and learning about new technologies and programming languages whenever I commute. One of my favourite books is <strong>"Clean Code" by Robert C. Martin</strong>.
-              His philosphies on writing code have helped me improve as a programmer and stand out during my internships.
+            I enjoy working on personal projects, such as building an inventory management site.
+            <br/><br/>I also enjoy producing music and have been doing so for over 10 years.
+            <br/><br/>I have a special expertise in audio and audio production, which helped me land my job at BKL Consultants.
+            <br/><br/>I like to play around with modular synthesizers and Max MSP, a visual audio coding language.
+            <br/><br/>One day, I hope to make my own musical software instruments!
+            <br/><br/>I stay healthy by practicing Jiu Jitsu twice a week and getting plenty of fresh air.
+            <br/><br/>I enjoy reading and learning about new technologies and programming languages whenever I commute.
+            <br/><br/>One of my favorite books is "Clean Code" by Robert C. Martin. His philosophies on writing code have helped me improve as a programmer and stand out during my internships.
+            
             </p>
           </div>
           
@@ -71,13 +72,16 @@ function OtherWork() {
             <button id='elipse' onClick={toggleContainers}>...</button>
             
             <p>
-              I started out my education at the <strong>University of Victoria</strong> where I studied a joint <strong>Computing Science and Music degree</strong>. 
-              During my time there I took the first year of the computing science program and the first year of the music program. As well as any joint music technology classes available. 
-              I then transferred to LaSalle College's Recording Arts program since I wanted to dive deeper into audio technology and production. After graduating from LaSalle College, I began working part time while continuing my computer science education at <strong>Douglas College</strong>.
-              During this time I began playing around with <strong>web development</strong> and found that I enjoyed building <strong>user interfaces</strong> the most. I discovered that there were alot of <strong>analogues between editing sound and editing graphics</strong> and I felt the same amount of satisfaction creating web applications as I did creating music.
-               I took a course on <strong>UI and UX design</strong> and began building my own projects in <strong>Figma and HTML/CSS. </strong>  
-              I eventually picked up <strong>React and a few other libraries</strong> and began building more complex applications. After surviving Covid-19, several job changes and internships, I finally completed my diploma in Computing Science and feel prepared to begin my career as a <strong>software engineer.</strong> 
-              After surviving Covid-19, several job changes and internships, I finally completed my diploma in Computing Science and feel prepared to begin my career as a software engineer.
+            I started my education at the University of Victoria, where I pursued a joint Computing Science and Music degree.
+            <br/><br/>During my time at the University of Victoria, I completed the first 3 semesters of both the computing science and music programs, taking all available music technology classes.
+            <br/><br/>I transferred to LaSalle College's Recording Arts program to delve deeper into audio technology and production.
+            <br/><br/>After graduating from LaSalle College, I worked part-time while continuing my computer science education at Douglas College.
+            <br/><br/>During this period, I began exploring web development and discovered a passion for building user interfaces.
+            <br/><br/>I found many analogues between editing sound and editing graphics, and I derived as much satisfaction from creating web applications as I did from creating music.
+            <br/><br/>I enrolled in a course on UI and UX design and started building my own projects using Figma and HTML/CSS.
+            <br/><br/>I eventually learned React and several other libraries and began developing more complex applications.
+            <br/><br/>After surviving Covid-19, undergoing several job changes and internships, I completed my diploma in Computing Science.
+            
             </p>
             
           </div>

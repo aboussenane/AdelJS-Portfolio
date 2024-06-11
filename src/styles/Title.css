@@ -85,6 +85,8 @@
     width: 190px;
     background-color: #080808; /* Fallback color for older browsers */
   background-color: var(--background, #080808);
+  border: var(--border);
+  margin-bottom: 20px;
     
   }
   .tran-text{
@@ -96,6 +98,7 @@
     color: var(--blue);
     font-size: large;
     font-weight: 500;
+    
   }
   .t-divider{
     margin: 0 10px;
@@ -109,8 +112,7 @@
     background-color: var(--shadow) !important;
   }
   .transition:hover{
-    border-style: solid;
-    border-color: var(--blue);
+    border: var(--border-blue);
   }
   #intro-text{
     left: 50%;
@@ -120,6 +122,7 @@
     border-style: none;
     border-color: var(--blue);
     border-width: 5px;
+    
  }
  #subheader{
     text-align: center;
@@ -206,6 +209,14 @@
   }
 }
 
+
+@media screen and (max-width: 1200px) {
+  .transition{
+    
+    left: 42vw;
+  }
+}
+
 @media screen and (max-width: 458px) {
   .section {
 
@@ -227,7 +238,7 @@
     
   }
   .transition{
-    bottom: 15%;
-    left: 30vw;
+    
+    left: 27vw;
   }
 }

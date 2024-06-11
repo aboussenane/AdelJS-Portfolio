@@ -20,6 +20,7 @@
   --red: #f5382b;
   --orange: #FF5337;
   --border: 1.6px solid #3a3a3a;
+  --border-blue: 1.6px solid #6492c7;
   --primary: #1d1e1f;
   --width: min(calc(100vw - 20px), 500px + 40vw);
   --shadow: #64646f33 ;
@@ -70,10 +71,11 @@ nav {
     border-radius: 15px;
     min-width: 40px;
     width: 135px;
+    border: var(--border);
   }
   .github-btn:hover{
-    border-style: solid;
-    border-color: var(--blue);
+    
+    border: var(--border-blue);
   }
   .git-text{
     color: var(--white);
@@ -182,9 +184,9 @@ nav {
       max-width: 40px;
       background-color: #1d1e1f00;
       backdrop-filter: blur(10px);
+      border: var(--border);
     }
     #nav-toggle:hover{
-      border-style: solid;
-      border-color: var(--blue);
+      border: var(--border-blue);
     }
   }

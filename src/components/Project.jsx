@@ -59,24 +59,7 @@ function Project() {
             <div className="project-title">
             <a id="title-link" href="https://booking-calendar-ten.vercel.app/" target="_blank" rel="noopener noreferrer">Calendar App</a>
                 <p id='description'>The Calendar component is a feature-rich calendar application built using React and several supporting libraries. It provides a user-friendly interface for managing events and bookings, with capabilities tailored for both desktop and mobile users.</p>
-                <h4>Key Features:</h4>
-    <ul>
-        <li>
-            <strong>Event Management</strong> 
-        </li>
-        <li>
-            <strong>Responsive Design</strong> 
-        </li>
-        <li>
-            <strong>Conflict Detection</strong>
-        </li>
-        <li>
-            <strong>Holidays Integration</strong>
-        </li>
-        <li>
-            <strong>Interactive Calendar Views</strong>
-        </li>
-    </ul>
+               
 
     
             </div>
@@ -87,24 +70,10 @@ function Project() {
             <div className="project-title" id="short-project-description">
             <a id="title-link" href="https://www.caeterra.ca/" target="_blank" rel="noopener noreferrer">Caeterra</a>
                 <p id='description'>A landing page for an Ottawa based property managment company. Designed and implemented a simple site which showcases the buisness's services and accomplishements from start to finish.</p>
-                <h4>Key Features:</h4>
-    <ul>
-        <li>
-            <strong>Event Management</strong> 
-        </li>
-        <li>
-            <strong>Responsive Design</strong> 
-        </li>
-        <li>
-            <strong>Dynamically Rendered Listings</strong>
-        </li>
-        <li>
-            <strong>Interactive Game with AI Chatbot</strong>
-        </li>
-        
-    </ul>
+               
+    
             </div>
-            <div className="project-info-container">
+            <div className="project-info-container" >
             <a id="title-link" href="https://www.caeterra.ca/" target="_blank" rel="noopener noreferrer">
 
                 
@@ -135,23 +104,11 @@ function Project() {
             </div>
             <div className="project-title">
             <a id="title-link" href="https://github.com/aboussenane/PipedriveDocGenerator" target="_blank" rel="noopener noreferrer">Document Generator</a>
+                <div className="text-container">
                 <p id='description'>Created a nodeJS electron app which accesses data from a CRM app and use it to create folders and autofill documents. Saved hours in collective time by automating simple repetitive tasks.</p>
-                <h4>Key Features:</h4>
-    <ul>
-        <li>
-            <strong>Data Retreival from API</strong> 
-        </li>
-        <li>
-            <strong>Document Autofill</strong> 
-        </li>
-        <li>
-            <strong>Folder Management</strong>
-        </li>
-        <li>
-            <strong>Optional Webhook Version</strong>
-        </li>
-    </ul>
-            
+                
+    
+    </div> 
             </div>
             
             
@@ -159,7 +116,7 @@ function Project() {
         <div className="project-container">
             <div className="project-title">
                 <a id="title-link" href="https://master.d1rdr4srhzrrq8.amplifyapp.com/" target="_blank" rel="noopener noreferrer">Time Logger</a>
-                <p id='description'>I developed a tool during my previous job to assist in monitoring noise levels. This tool was specifically designed to record the precise timing of construction activities. Using React and JavaScript, I created a web application for this purpose. When the "Log" button is clicked, the time, along with a comment, is saved as text. This text can be easily copied using a button located at the bottom of the page. Additionally, I intend to enhance this tool by incorporating an email feature in the future. </p> 
+                <p id='description'>I developed a tool during my previous job to assist in monitoring noise levels. This tool was specifically designed to record the precise timing of construction activities. Using React and JavaScript, I created a web application for this purpose. When the "Log" button is clicked, the time, along with a comment, is saved as text. This text can be easily copied using a button located at the bottom of the page. </p> 
             </div>
             <div className="project-info-container">
 

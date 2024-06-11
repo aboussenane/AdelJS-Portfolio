@@ -32,6 +32,7 @@
   --width-phone: 320px;
   --width-tablet: 788px;
   --width-desktop: 3000px;
+  --border-blue: 1.6px solid #6492c7;
 }
 .Internships-section{
   position: relative;
@@ -121,11 +122,16 @@ h3{
   transition: height 0.3s ease;
   background-color: var(--black);
 }
-
+.Accordion-item:hover{
+  border:var(--border-blue);
+  border-bottom: 1px solid var(--blue);
+}
 .Accordion-item:last-child {
   border-bottom: none;
 }
-
+.Accordion-item:last-child:hover {
+  border-bottom: 1px solid var(--blue);
+}
 .Accordion-title {
   margin-top: 5px;
   margin-left: 10px;
@@ -146,6 +152,7 @@ h3{
   cursor: pointer;
   outline: none;
 }
+
 .tech-text{
   margin-left: 80%;
   font-size: 1rem;
