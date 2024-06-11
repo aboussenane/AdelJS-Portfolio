@@ -103,7 +103,7 @@
 .project-info-container{
     position: relative;
     background-image: var(--gradient);
-    
+    border-radius: 25px;
     margin: 20px;
     height: 500px;
     

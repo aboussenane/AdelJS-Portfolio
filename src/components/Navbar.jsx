@@ -2,6 +2,7 @@
 import '../styles/Navbar.css'; 
 import React, { useState, useEffect } from 'react';
 import '../App.css'
+import { BiLogoLinkedin } from 'react-icons/bi';
 
 function Navbar() {
   /*document.getElementById('nav-toggle').addEventListener('click', function() {
@@ -101,9 +102,15 @@ function Navbar() {
               Contact
             </a>
           </li>
+          <li >
+            <a href="https://www.linkedin.com/in/adel-boussenane-28545317a/">
+              LinkedIn
+            </a>
+          </li>
           
         </ul>
         ): null}
+        
         <a href="https://github.com/aboussenane" className="github-btn" style={{ top: navOpen ? '9%' : '9%', position:'absolute' }}>
         <p className="git-text">Github </p>
         <div className='divider'></div>
